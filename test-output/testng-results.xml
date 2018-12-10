@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14463" started-at="2018-11-20T08:22:14Z" finished-at="2018-11-20T08:22:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14463" started-at="2018-11-20T08:22:14Z" finished-at="2018-11-20T08:22:28Z">
+      <class name="com.scripts.loginHomePage">
+        <test-method status="PASS" signature="report()[pri:0, instance:com.scripts.loginHomePage@226a82c4]" name="report" is-config="true" duration-ms="11" started-at="2018-11-20T08:22:14Z" finished-at="2018-11-20T08:22:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.scripts.loginHomePage@226a82c4]" name="setUp" is-config="true" duration-ms="13361" started-at="2018-11-20T08:22:14Z" finished-at="2018-11-20T08:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.scripts.loginHomePage@226a82c4]" name="testLogin" duration-ms="419" started-at="2018-11-20T08:22:27Z" finished-at="2018-11-20T08:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.loginHomePage@226a82c4]" name="tearDown" is-config="true" duration-ms="650" started-at="2018-11-20T08:22:28Z" finished-at="2018-11-20T08:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.loginHomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

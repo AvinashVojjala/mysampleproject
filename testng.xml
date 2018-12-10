@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<suite name="LoginPage" verbose="10" preserve-order="true">
+
+<listeners>
+ 
+<listener class-name="org.uncommons.reportng.HTMLReporter" />
+ 
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+ 
+</listeners>
+	<test name="LoginPage">
+	
+		<classes>
+			<class name="com.scripts.loginHomePage" />
+			
+		</classes>
+	</test>
+</suite>
