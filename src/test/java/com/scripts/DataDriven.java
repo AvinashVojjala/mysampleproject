@@ -18,6 +18,8 @@ import org.testng.annotations.Test;
 import com.base.TestBase;
 import com.pageobjects.GooglePO;
 
+import scala.util.control.Exception;
+
 public class DataDriven extends TestBase {
 
 	@BeforeTest
@@ -27,7 +29,7 @@ public class DataDriven extends TestBase {
 	}
 
 	@Test
-	public void readData() throws Exception {
+	public void readData() throws java.lang.Exception {
 
 		GooglePO google = new GooglePO();
 		google.googleSearch(readDataFromExcelFile(0, 1, 0));
